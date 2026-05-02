@@ -4,7 +4,7 @@
 
 import Link from "next/link";
 import { footerData } from "@/data";
-import  heroData  from "@/data";
+import  { heroData }  from "@/data";
 import { usePathname } from 'next/navigation';
 import { LiaLongArrowAltRightSolid } from "react-icons/lia";
 
@@ -12,7 +12,7 @@ export default function Footer() {
     const Pathname = usePathname();
 
   return (
-    <footer className="bg-[#f5f5f5] text-[#000000]">
+    <footer className="relative bg-[#eeeeee]  text-[#000000] border-t border-[#00000040] shadow-[0px_4px_20px_4px_rgba(0,0,0,0.25)]">
 
       {/* Navigation */}
       <div className="px-20 pt-10 flex gap-10 font-[Myriad_Pro] font-normal text-[20px] leading-[42.05px] tracking-[2.32px]">
@@ -49,6 +49,7 @@ export default function Footer() {
           <p className="text-[#000000] font-[Myriad_Pro] font-normal text-[24px] leading-[42.05px] tracking-[2.32px]">
             {footerData.left.title}
           </p>
+          <Link href="/contact">
           <h2 className=" group flex items-center gap-1 text-[#F05523] cursor-pointer font-[Myriad_Pro] font-normal text-[34px] leading-[42.05px] tracking-[2.32px]">
             {footerData.left.link}
 
@@ -58,6 +59,7 @@ export default function Footer() {
               />
             </span>
           </h2>
+          </Link>
         </div>
 
         {/* Right */}
@@ -114,4 +116,6 @@ export default function Footer() {
     </footer>
   );
 }
+
+
 
