@@ -551,6 +551,110 @@ export const blogDetails = {
   },
 };
 
+// Case Study Details
+export const caseStudyData = {
+  hero: {
+    title: `Transforming job hunting with a user-centric, efficient & personalised hiring experience.`,
+    image1: "/images/phone1.png",
+  },
+
+  sidebar: {
+    logo: "/images/bridge-logo.png",
+    fields: [
+      { label: "Domain", value: "" },
+      { label: "Platform", value: "" },
+      { label: "Services", value: "" },
+    ],
+  },
+
+  overview: {
+    title: "OVERVIEW",
+    description: `Bridge it is a modern, user-friendly job finding application designed to make the job search experience intuitive, personalised, and efficient. The app connects job seekers with the most relevant job opportunities, empowering users to discover, apply, and manage their applications in a seamless, one-stop platform.`,
+  },
+
+  problem: {
+    title: "PROBLEM",
+    description: `Job seekers often struggle to find relevant job opportunities efficiently, as existing platforms lack personalised job recommendations and require extensive search time. Additionally, recruiters face challenges in filtering and connecting with qualified candidates, leading to a mismatch in job-candidate alignment.`,
+  },
+};
+
+export const designProcessData = {
+  titleTop: "Preparation",
+  titleBottom: "DESIGN PROCESS",
+
+  steps: [
+    {
+      id: 1,
+      title: "Test",
+      items: ["Usability Testing", "A/B Testing", "Design Refinement"],
+      icon: "edit",
+      position: "top",
+    },
+    {
+      id: 2,
+      title: "Prototype",
+      items: ["UI Research", "Style Guide", "Wireframes", "HiFi Screens"],
+      icon: "search",
+      position: "topRight",
+    },
+    {
+      id: 3,
+      title: "Ideate",
+      items: ["Information Architecture", "User Flow"],
+      icon: "bulb",
+      position: "right",
+    },
+    {
+      id: 4,
+      title: "Define",
+      items: ["User Personas", "Competitor Analysis"],
+      icon: "grid",
+      position: "bottomRight",
+    },
+    {
+      id: 5,
+      title: "Empathize",
+      items: ["User Research", "Survey Questionnaire", "Affinity Mapping"],
+      icon: "divide",
+      position: "bottom",
+    },
+  ],
+};
+
+export const userPersonaData = {
+  title: "User Persona",
+
+  personas: [
+    {
+      id: 1,
+      name: "Palak Sharma",
+      role: "Student",
+      image: "/images/person1.png",
+      quote:
+        "Networking can be helpful, but it’s hard to build connections as a fresh graduate with no experience.",
+    },
+
+    {
+      id: 2,
+      name: "Prajyot Kore",
+      role: "Data Analyst",
+      image: "/images/person2.png",
+      quote:
+        "It would be great if platforms could connect us directly with recruiters rather than automated application systems.",
+    },
+
+     {
+      id: 3,
+      name: "Anjali Bhanushali",
+      role: "Graphic Designer",
+      image: "/images/person3.png",
+      quote:
+        "Applying for jobs feels like a black hole—there’s rarely any transparency in the hiring process.",
+    },
+  ],
+};
+
+// Contact Page Data
 export const contactData = {
   project: {
     image: "/images/contact.png",

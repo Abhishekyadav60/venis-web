@@ -93,6 +93,7 @@ import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Image from "next/image";
+import { motion } from "framer-motion";
 import { Bebas_Neue } from "next/font/google";
 import { ArrowLeft, ArrowRight, Star } from "lucide-react";
 import Link from "next/link";
