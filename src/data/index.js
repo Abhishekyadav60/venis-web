@@ -1,3 +1,37 @@
+import {
+  Trash2,
+  PencilRuler,
+  Headphones,
+  BadgeDollarSign,
+  RotateCcw,
+  Volume2,
+  LayoutGrid,
+  ClipboardList,
+  Bell,
+  User,
+  Search,
+  IndianRupee,
+  Video,
+  Mic,
+  PhoneCall,
+  Hexagon,
+  LogOut,
+  Headset,
+  ChevronDown,
+  Trash,
+  Plus,
+  Check,
+  MessageSquare,
+  ShieldCheck,
+  Bookmark,
+  Users,
+  Eye,
+  ChevronRight,
+  ChevronLeft,
+  ChevronDownIcon,
+  Gauge,
+  Pencil,
+} from "lucide-react";
 
 export const heroData = {
   left: {
@@ -652,6 +686,203 @@ export const userPersonaData = {
         "Applying for jobs feels like a black hole—there’s rarely any transparency in the hiring process.",
     },
   ],
+};
+
+export const competitiveAnalysisData = {
+  title: "Competitive Analysis",
+
+  companies: [
+    {
+      name: "Indeed",
+      logo: "/images/indeed.png",
+    },
+    {
+      name: "LinkedIn",
+      logo: "/images/linkedin.png",
+    },
+    {
+      name: "Naukri",
+      logo: "/images/naukri.png",
+    },
+  ],
+
+  rows: [
+    {
+      feature: "Interview Scheduling",
+      values: [false, false, false],
+    },
+    {
+      feature: "PLACEHOLDER",
+      values: [true, true, false],
+    },
+    {
+      feature: "Resume/CV Builder",
+      values: [true, false, true],
+    },
+    {
+      feature: "ATS Checker",
+      values: [false, false, false],
+    },
+    {
+      feature: "PLACEHOLDER",
+      values: [true, true, true],
+    },
+    {
+      feature: "PLACEHOLDER",
+      values: [true, true, false],
+    },
+  ],
+};
+
+// LogoBreakdown Data
+
+export const logoBreakdownData = {
+  title: {
+    first: "Logo",
+    second: "Breakdown",
+  },
+
+  mainLogo: "/images/bridge-logo1.png",
+
+  symbolLogo: "/images/bridge-logo-symbol.png",
+
+  bridgeImage: "/images/bridge-bg.png",
+
+  bottomLogo: "/images/bridge-bottom-logo.png",
+
+  topText: {
+    normal1: "Symbolizing the job seeker and",
+    highlight1: '"I"',
+    normal2: "of the",
+    highlight2: '"it"',
+    normal3: "of the brand",
+  },
+
+  middleText: {
+    normal1: "Symbolizing the Bridge that will connect you to your",
+    normal2: "dream job and also the",
+    highlight1: '"B"',
+    normal3: "in",
+    highlight2: '"Bridge"',
+  },
+
+  bottomText: {
+    highlight: "Bridge it",
+    normal:
+      "- symbolizing that this platform will help connect the user to the job, bridging the gap",
+  },
+};
+
+// Typography Data
+export const typographyData = {
+  title: "Typography",
+
+  mainText: {
+    heading: "Aa",
+    fontName: "Poppins",
+  },
+
+    uppercase: {
+    firstLine: "ABCDEFGHIJKLMOPQ",
+    secondLine: "RSTUVWXYZ",
+  },
+
+  lowercase: {
+    firstLine: "abcdefghijklmnop",
+    secondLine: "qrstuvwxyz",
+  },
+
+  numbers: {
+    firstLine: "1234567",
+    secondLine: "890",
+  },
+};
+
+// Color Palette Data
+export const colourData = {
+  title: "Colours",
+
+  colors: [
+    {
+      bg: "#3A83BB",
+      code: "3A83BB",
+    },
+    {
+      bg: "#3A3A3A",
+      code: "3A3A3A",
+    },
+    {
+      bg: "#F6F6F6",
+      code: "F6F6F6",
+    },
+    {
+      bg: "#8FB9DA",
+      code: "8FB9DA",
+    },
+    {
+      bg: "#262626",
+      code: "262626",
+    },
+  ],
+};
+
+// Icons Data
+export const iconsData = {
+  title: "Icons",
+
+  icons: [
+    Trash2,
+    PencilRuler,
+    Headphones,
+    BadgeDollarSign,
+    RotateCcw,
+    Volume2,
+
+    LayoutGrid,
+    ClipboardList,
+    Bell,
+    User,
+    Search,
+    IndianRupee,
+
+    Video,
+    Mic,
+    PhoneCall,
+    Hexagon,
+    LogOut,
+    Headset,
+
+    ChevronDown,
+    Trash,
+    Plus,
+    Check,
+    MessageSquare,
+    ShieldCheck,
+
+    Bookmark,
+    Users,
+    Eye,
+    ChevronRight,
+    ChevronLeft,
+    ChevronDownIcon,
+    Gauge,
+    Pencil,
+  ],
+};
+
+//Conclusion Data
+export const conclusionData = {
+  title: "Conclusion",
+
+  description: `
+Bridge It began with a clear problem: job seekers were frustrated, overlooked, and lost in platforms that weren't built with them in mind. Through thorough research surveys with 169 users, 10 in-depth interviews, competitive analysis, and empathy mapping the design process stayed grounded in real human needs rather than assumptions.
+
+The result is an app that doesn't just list jobs. It understands the user their skills, their goals, their anxieties and builds an experience around them. From personalised recommendations and 1-click apply to built-in interview scheduling and application tracking, every feature was a direct response to a pain point uncovered during research.
+
+What this project reinforced most is that great UX isn't about adding more features it's about removing friction. Job searching is already stressful. Bridge It's role is to make that journey feel supported, transparent, and human.
+
+This case study is a reflection of a design process that listened first and built second and that approach is what makes the final product worth using.
+  `,
 };
 
 // Contact Page Data
